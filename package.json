@@ -1,0 +1,28 @@
+{
+  "name": "eel-redis",
+  "version": "0.0.0",
+  "description": "Redis backend for http://npm.im/eel",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BetSmartMedia/node-eel-redis"
+  },
+  "keywords": [
+    "logging",
+    "redis",
+    "logstash"
+  ],
+  "author": "Stephen Sugden",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "~0.8.2"
+  },
+  "devDependencies": {
+    "fakeredis": "0.0.14",
+    "eel": "~0.1.1",
+    "tap": "~0.3.3"
+  }
+}
