@@ -37,4 +37,4 @@ This is a Redis backend for [eel][eel] (EventEmitter logging).
 
 _Installing `eel` as a direct dependency is necessary for `require('eel')` to work in your app._
 
-[eel]: https://github.com/BetSmartMedia/eel
+[eel]: https://github.com/BetSmartMedia/node-eel
