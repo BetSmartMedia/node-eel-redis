@@ -4,7 +4,7 @@
   "description": "Redis backend for http://npm.im/eel",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js && node integration.js"
   },
   "repository": {
     "type": "git",
