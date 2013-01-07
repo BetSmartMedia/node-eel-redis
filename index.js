@@ -9,7 +9,7 @@ var redis = require('redis')
 function createBackend (uri) {
 	var port = uri.port || 6379
 		, host = uri.hostname || 'localhost'
-		, client = redis.createClient(host, port)
+		, client = redis.createClient(port, host)
 		, db
 		;
 
