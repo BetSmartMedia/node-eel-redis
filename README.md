@@ -1,5 +1,7 @@
 # eel-redis - Redis backend for [eel][eel]
 
+[![Build Status](https://secure.travis-ci.org/BetSmartMedia/node-eel-redis.png?branch=master)](http://travis-ci.org/BetSmartMedia/node-eel-redis)
+
 ## Synopsis
 
 ```javascript
